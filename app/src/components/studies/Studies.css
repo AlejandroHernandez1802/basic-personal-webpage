@@ -24,6 +24,7 @@
     margin: auto;
 
     cursor: pointer;
+    z-index: 2;
 }
 
 #left{
@@ -34,16 +35,14 @@
     right: 10px;
 }
 
-.s-wrapper{
-    height: 100%;
-    display: flex;
-}
 
 .s-slide{
     display: flex;
     align-items: center;
     width: 100vw;
     height: 100vh;
+
+    background-color: #CDCDCD;
 }
 
 .s-img-container{
@@ -56,10 +55,29 @@
 
 .s-img{
     height: 50%;
+    border-radius: 50%;
 }
 
 .s-info-container{
     flex: 1;
+    margin-right: 100px;
+}
+
+.s-title{
+    font-size: 60px;
+}
+
+.s-description{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.s-url{
+    text-decoration: none;
+    border: solid 2px black;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
 }
 
 
