@@ -1,0 +1,38 @@
+.a{
+    height: 100vh;
+    display: flex;
+}
+
+.a-left{
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-card{
+    position: absolute;
+    height: 70vh;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #333;
+}
+
+.a-card-img{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 50%;
+    height: 70vh;
+    background-image: url("../../img/me2.jpeg");
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.a-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
